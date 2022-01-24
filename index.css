@@ -1,4 +1,4 @@
-#elem.bbb.zzz {
+h2#elem.bbb {
 	color: red;
 }
-/* Сделает id elem с классом .bbb.zzz красным */
+/* Сделает заголовок h2 с id elem с классом .bbb красным */
