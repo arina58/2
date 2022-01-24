@@ -1,4 +1,4 @@
-#elem.bbb {
+#elem.bbb.zzz {
 	color: red;
 }
-/* Сделает id elem с классом .bbb красным */
+/* Сделает id elem с классом .bbb.zzz красным */
