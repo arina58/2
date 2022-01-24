@@ -1,3 +1,7 @@
-.fff h2.bbb {
-    color: blue;
+h2 {
+	font-size: 20px;
 }
+h2 {
+	font-size: 30px;
+}
+/* Итог: 30px */
