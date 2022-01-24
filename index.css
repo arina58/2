@@ -1,9 +1,9 @@
-.success {
-	color: green;
+#elem1{
+    color: red;
 }
-.large {
-	font-size: 30px;
+#elem2{
+    color: green;
 }
-.small {
-    font-family: 'Times New Roman';
+#elem3{
+    color: blue;
 }
