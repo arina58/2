@@ -1,9 +1,15 @@
-h2 {
-	font-size: 20px;
-	color: blue;
+#elem1 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
 }
-h2 {
-	font-style: italic;
-	color: red;
+
+#elem2 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	padding: 25px; /* задаем отступы */
+	border: 10px solid green;  /* задаем границу */
+	box-sizing: border-box;  /* убираем расширение */
 }
-/* Итог: 20px, red, italic */
