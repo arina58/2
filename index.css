@@ -4,8 +4,8 @@
 	text-align: right;
 }
 .child {
+	width: 100px;
 	padding: 10px;
 	border: 1px solid green;
 	display: inline-block;
-	margin-right: 10px; ;
 }
