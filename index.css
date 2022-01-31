@@ -1,8 +1,8 @@
 #elem {
-	padding-top:    60px; /* сверху */
-	padding-right:  30px; /* справа */
-	padding-bottom: 60px; /* снизу */
-	padding-left:   30px; /* слева */
+	padding-top:    10px; /* сверху */
+	padding-right:  20px; /* справа */
+	padding-bottom: 50px; /* снизу */
+	padding-left:   20px; /* слева */
 	
 	width: 300px;
 	border: 1px solid red;
