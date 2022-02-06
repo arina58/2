@@ -1,7 +1,7 @@
-a.zzz {
+#block a.zzz {
 	color: red;
 }
-a.zzz:hover {
+#block a.zzz:hover {
 	text-decoration: none;
 }
-/* Во всех состояниях с классом zzz ссылка красная, в сотоянии hover с классом zzz нет подчеркивания */
+/* В элементе с id = block во всех состояниях ссылка с классом zzz красная, в сотоянии hover с классом zzz нет подчеркивания */
