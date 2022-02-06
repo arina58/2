@@ -1,7 +1,7 @@
 p{
 	width: 300px;
 	height: 200px;
-	border-color: red;
-	border-width: 5px;
-	border-style: dotted;
+	border-color: orange;
+	
+	border-style: dashed;
 }
