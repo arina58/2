@@ -1,5 +1,9 @@
 p{
 	width: 300px;
 	height: 200px;
-	border: 10px double orange;
+	border-left: 10px solid orange;
+	border-top:10px solid blue;
+	border-right: 10px solid green;
+	border-bottom: 10px solid red;
 }
+
