@@ -1,4 +1,7 @@
-li:nth-child(3){
+li:nth-child(even){
+	color: green;
+}
+li:nth-child(odd){
 	color: red;
 }
 
