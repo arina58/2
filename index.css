@@ -1,7 +1,7 @@
 p{
 	width: 200px;
 	height: 200px;
-	border-radius: 100px;
+	border-radius: 10px 30px 50px 70px;
 	border: 1px solid green;
 }
 
