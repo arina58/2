@@ -1,4 +1,4 @@
-li:nth-child(3n){
+li:nth-last-child(2){
 	color: red;
 }
 
