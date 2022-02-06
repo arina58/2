@@ -1,7 +1,4 @@
-.block a.zzz {
+li:first-child{
 	color: red;
 }
-.block a.zzz:hover {
-	text-decoration: none;
-}
-/* В элементе с классом block во всех состояниях ссылка с классом zzz красная, в сотоянии hover с классом zzz нет подчеркивания */
+
