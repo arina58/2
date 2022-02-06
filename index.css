@@ -1,9 +1,7 @@
-a{
-	color: blue;
+a {
+	color: red;
+}
+a:hover {
 	text-decoration: none;
 }
-
-a:hover{
-	color: red;
-	text-decoration: underline;
-}
+/* Во всех состояниях ссылка красная, в сотоянии hover нет подчеркивания */
