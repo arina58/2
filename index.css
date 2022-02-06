@@ -1,5 +1,6 @@
 body{
+	background-position: top right ;
 	background-image: url("bg.png");
-	background-repeat: repeat-x;
+	background-size: 200px;
 }
 
