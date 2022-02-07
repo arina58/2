@@ -1,7 +1,7 @@
 .parent	{
 	display: flex;
 	border: 1px solid red;
-	justify-content: space-between;
+	justify-content: space-around;
 	width: 700px;
 	height: 300px;
 }
