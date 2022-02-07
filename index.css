@@ -1,3 +1,26 @@
-a[href$=".html"]{
-	font-size: 30px;
-}
+	#elem1 {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+		background-color: #FF8888;
+		position: relative;
+		top: 80;
+	}
+	#elem2 {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+		background-color: #7E89EB;
+		position: relative;
+		top: 40;
+		left: 40px;
+	}
+	#elem3 {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+		background-color: #4DEE99;
+		position: relative;
+		left: 80px;
+	}
+	}
