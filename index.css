@@ -11,7 +11,7 @@
 	height: 50px;
 	border: 1px solid blue;
 	position: absolute;
-	top: 120px;
+	top: 50px;
 	left: 120px;
 }
 #xx{
@@ -19,6 +19,6 @@
 	height: 50px;
 	border: 1px solid green;
 	position: absolute;
-	top: 190px;
+	top: 50px;
 	left: 190px;
 }
