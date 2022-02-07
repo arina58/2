@@ -1,3 +1,12 @@
-a[href$=".html"]{
-	font-size: 30px;
+.parent	{
+	display: flex;
+	border: 1px solid red;
+	justify-content: center;
+	width: 700px;
+	height: 400px;
+}
+.child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
 }
