@@ -1,9 +1,9 @@
 .parent	{
 	display: flex;
 	border: 1px solid red;
-	justify-content: center;
+	justify-content: space-between;
 	width: 700px;
-	height: 400px;
+	height: 300px;
 }
 .child {
 	width: 100px;
