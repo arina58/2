@@ -5,6 +5,7 @@
 	position: absolute;
 	top: 50px;
 	left: 50px;
+	background-color: red;
 }
 #zz{
 	width: 50px;
@@ -13,6 +14,7 @@
 	position: absolute;
 	top: 80px;
 	left: 80px;
+	background-color: blue;
 }
 #xx{
 	width: 50px;
@@ -21,4 +23,5 @@
 	position: absolute;
 	top: 110px;
 	left: 110px;
+	background-color: green;
 }
