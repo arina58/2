@@ -6,6 +6,8 @@ let students = [
     {id: 4, name: 'Матвей', surname:'Гаврилов'}
 ]
 
+let id_current = 0
+
 function load_oll(){
     let table = document.getElementById('tbl_all')
     for (let i = 0; i<students.length; i++){
@@ -32,5 +34,32 @@ function load_oll(){
         table.appendChild(tr)
 
     }
+}
+
+
+
+function load_student(id){
+    let head = document.getElementById('zagolovok')
+    head.textContent = 'Информация о студенте № ' + students[id].id
+
+    document.getElementById('name').textContent = students[id].name
+    document.getElementById('surname').textContent = students[id].surname
+}
+
+function next(){
+    id_current++
+    if (id_current>0) document.getElementById('btn_prev') .disabled = false
+    if (id_current===students.length-1){
+        document.getElementById('btn_next') .disabled = true
+    }
+    load_student(id_current)
+}
+function prev(){
+    id_current--
+    if (id_current===0) document.getElementById('btn_prev') .disabled = true
+    if (id_current!==students.length-1){
+        document.getElementById('btn_next') .disabled = false
+    }
+    load_student(id_current)
 }
 
