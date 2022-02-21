@@ -1,3 +1,53 @@
-#kartinka{
-	height: 100px;
+body{
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 200px;
+	text-align: center;
+}
+button:hover:enabled{
+	color: white;
+	background-color: orange;
+	border-color: rgb(209, 136, 0);
+}
+.title{
+	display: inline-flex;
+}
+
+button:active:enabled{
+	color: none;
+	background-color: none;
+	border-color: none;
+}
+#btn_next, #btn_prev{
+	width: 105px;
+	height: 30px;
+}
+.val{
+	font-size: 20px;
+	margin: 0px 10px;
+}
+
+button{
+	font-size: 15px;
+	margin-top: 5px;
+}
+.title{
+	margin-bottom: 5px;
+}
+#phon{
+	width: 800px;
+	height: 400px;
+	background-color: rgb(255, 210, 125);
+	position: absolute;
+	z-index: -1;
+	top: 100px;	
+}
+#ramka{
+	position: absolute;
+	border-color: white;
+	width: 50px;
+	height: 320px;
+	background-color: rgba(240, 248, 255, 0);
+	top: 140px;
+	z-index: 0;
 }
