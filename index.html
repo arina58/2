@@ -11,22 +11,17 @@
     <script>
         var data = [100, 68, 20, 30, 100];
         var canvas = document.getElementById('canvas');
-        var ctx = canvas.getContext('2d');
-
-        // рисуем прямоугольник
-        ctx.fillStyle = 'red';
-        ctx.fillRect(0,0,400,100);
-        // создаём треугольный контур
-        ctx.beginPath();
-        ctx.moveTo(200,50);
-        ctx.lineTo(250,150);
-        ctx.lineTo(150,150);
-        ctx.closePath();
-        // используем треугольник как маску
-        ctx.clip();
-        // заливаем прямоугольник жёлтым цветом
-        ctx.fillStyle = 'yellow';
-        ctx.fillRect(0,0,400,100);
+        var c = canvas.getContext('2d');
+        c.beginPath();
+        c.arc(
+        100,100, 40,  // окружность радиусом 40 пикселей с центром в 100,100
+        0,Math.PI*2,  // от 0 до 360 градусов для заливки окружности
+        );
+        c.closePath();
+        c.stroke();
+        var a = c.isPointInPath(80,0);     // возвращает true
+        var b = c.isPointInPath(200,100);  // возвращает false
+        console.log(a)
     </script>
 </body>
 </html>
