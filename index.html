@@ -12,16 +12,30 @@
         var data = [100, 68, 20, 30, 100];
         var canvas = document.getElementById('canvas');
         var c = canvas.getContext('2d');
-        c.beginPath();
-        c.arc(
-        100,100, 40,  // окружность радиусом 40 пикселей с центром в 100,100
-        0,Math.PI*2,  // от 0 до 360 градусов для заливки окружности
-        );
-        c.closePath();
-        c.stroke();
-        var a = c.isPointInPath(80,0);     // возвращает true
-        var b = c.isPointInPath(200,100);  // возвращает false
-        console.log(a)
+        
+        window.requestAnimFrame = (function(){ 
+        return  window.requestAnimationFrame       || 
+                window.webkitRequestAnimationFrame || 
+                window.mozRequestAnimationFrame    || 
+                window.oRequestAnimationFrame      || 
+                window.msRequestAnimationFrame     || 
+                function( callback ){ 
+                    window.setTimeout(callback, 1000 / 60); 
+                }; 
+        })();
+
+        var x = 0; 
+        function drawIt() { 
+        window.requestAnimFrame(drawIt); 
+        var canvas = document.getElementById('canvas'); 
+        var c = canvas.getContext('2d'); 
+        c.clearRect(0,0,canvas.width,canvas.height); 
+        c.fillStyle = "red"; 
+        c.fillRect(x,100,200,100); 
+        x+=5; 
+        } 
+        
+        window.requestAnimFrame(drawIt);
     </script>
 </body>
 </html>
