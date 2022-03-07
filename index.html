@@ -14,11 +14,11 @@
         var ctx = canvas.getContext('2d');
 
         ctx.fillStyle = "red";
-        for(var i=0; i<data.length; i++) {
-            var dp = data[i];
-            ctx.translate(100, 0);
-            ctx.fillRect(0,0,50,dp);
-}
+        ctx.translate(50,50);
+        // преобразуем углы в радианы
+        var rads = 30 * Math.PI*2.0/360.0;
+        ctx.rotate(rads)
+        ctx.fillRect(0,0,100,100);
     </script>
 </body>
 </html>
