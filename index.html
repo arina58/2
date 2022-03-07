@@ -11,14 +11,15 @@
     <script>
         var data = [100, 68, 20, 30, 100];
         var canvas = document.getElementById('canvas');
-        var ctx = canvas.getContext('2d');
+        var c = canvas.getContext('2d');
 
-        ctx.fillStyle = "red";
-        ctx.translate(50,50);
-        // преобразуем углы в радианы
-        var rads = 30 * Math.PI*2.0/360.0;
-        ctx.rotate(rads)
-        ctx.fillRect(0,0,100,100);
+        for(var i=0; i<data.length; i++) {
+        c.save();
+        c.translate(40+i*100, 460-dp*4);
+        var dp = data[i];
+        c.fillRect(0,0,50,dp*4);
+        c.restore();
+        }
     </script>
 </body>
 </html>
