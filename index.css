@@ -51,3 +51,12 @@ button{
 	height: 100px;
 	border-radius: 20px;
 }
+.s1{
+	font-size: 30px;
+	background-color: orange;
+	border-color: rgb(209, 136, 0);
+	width: 450px;
+	border-radius: 20px;
+	margin: auto;
+}
+

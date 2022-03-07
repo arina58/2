@@ -35,8 +35,6 @@ function load_oll() {
     table.appendChild(tr)
     }
 }
-    
- 
 
 function load_student(id) {
     
