@@ -11,15 +11,22 @@
     <script>
         var data = [100, 68, 20, 30, 100];
         var canvas = document.getElementById('canvas');
-        var c = canvas.getContext('2d');
+        var ctx = canvas.getContext('2d');
 
-        for(var i=0; i<data.length; i++) {
-        c.save();
-        c.translate(40+i*100, 460-dp*4);
-        var dp = data[i];
-        c.fillRect(0,0,50,dp*4);
-        c.restore();
-        }
+        // рисуем прямоугольник
+        ctx.fillStyle = 'red';
+        ctx.fillRect(0,0,400,100);
+        // создаём треугольный контур
+        ctx.beginPath();
+        ctx.moveTo(200,50);
+        ctx.lineTo(250,150);
+        ctx.lineTo(150,150);
+        ctx.closePath();
+        // используем треугольник как маску
+        ctx.clip();
+        // заливаем прямоугольник жёлтым цветом
+        ctx.fillStyle = 'yellow';
+        ctx.fillRect(0,0,400,100);
     </script>
 </body>
 </html>
