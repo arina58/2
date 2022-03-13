@@ -2,7 +2,7 @@
 	width: 800px;
 	height: 400px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row-reverse;
 	border: 1px solid red;
 }
 .child{
