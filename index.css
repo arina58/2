@@ -3,7 +3,7 @@
 	height: 300px;
 	border: 1px solid red;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	justify-content: center;
 	align-items: flex-end;
 }
