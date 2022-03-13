@@ -3,8 +3,8 @@
 	height: 300px;
 	border: 1px solid red;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
 .child{
