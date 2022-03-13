@@ -4,8 +4,8 @@
 	border: 1px solid red;
 	display: flex;
 	flex-direction: row;
-	/* justify-content: flex-end; */
-	align-items: flex-end;
+	justify-content:center;
+	/* align-items: flex-end; */
 }
 .child{
 	width: 100px;
