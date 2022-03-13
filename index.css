@@ -1,22 +1,19 @@
-.parent{
-	width: 700px;
-	height: 300px;
-	border: 1px solid red;
+#menu{
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 }
-.child{
-	width: 100px;
-	height: 50px;
-	border: 1px solid green;
-	text-align: center;
+#menu a{
+	width: auto;
+	height: auto;
+	padding: 10px 20px;
 	margin: 10px;
+	color: white;
+	border: 1px solid rgb(8, 143, 98);
+	background-color: rgb(8, 143, 98);
+	text-decoration: none;
 }
-.elem{
-	order: 3;
-}
-.fff{
-	order: -1;
+#menu a:hover, #menu a.active {
+	color: rgb(8, 143, 98);
+	border: 1px solid rgb(8, 143, 98);
+	background-color: white;
+	text-decoration: none;
 }
