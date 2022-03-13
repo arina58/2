@@ -4,6 +4,7 @@
 	border: 1px solid red;
 	display: flex;
 	flex-direction: row-reverse;
+	justify-content: flex-end;
 }
 .child{
 	width: 100px;
