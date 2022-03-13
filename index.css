@@ -3,8 +3,8 @@
 	height: 300px;
 	border: 1px solid red;
 	display: flex;
-	flex-direction: column-reverse;
-	justify-content: flex-end;
+	flex-direction: row-reverse;
+	/* justify-content: flex-end; */
 	align-items: flex-end;
 }
 .child{
