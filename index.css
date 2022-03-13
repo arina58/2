@@ -1,5 +1,7 @@
 #menu{
 	display: flex;
+	width: 200px;
+	flex-direction: column;
 }
 #menu a{
 	width: auto;
