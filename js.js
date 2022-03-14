@@ -1,5 +1,6 @@
 $(document).ready(function() {
   
-    $("div").draggable();
+    $("#head1").draggable({axis:"x"});
+    $("#head2").draggable({axis:"y"});
  
  });
