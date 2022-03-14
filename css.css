@@ -2,3 +2,10 @@
     border: 1px solid red;
     width: 300px;
 }
+a{
+    border: 1px solid green;
+    width: 200px;
+}
+.ui-selected{
+    background-color: rgb(70, 211, 70);
+}
