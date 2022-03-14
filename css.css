@@ -1,11 +1,34 @@
-#drag1{
-    border: 1px solid red;
-    width: 300px;
+#el1{
+    border-style:solid;
+    border-width:1px;
+    height:180px;
+    width:200px;
 }
-a{
-    border: 1px solid green;
+#sort1 {
+    list-style-type:none; 
+    margin:0; 
+    padding:0; 
+    width:40%; 
+}
+#sort1 li { 
+    margin:2px;
+    padding: 0.4em; 
+    border-style:solid; 
+    border-width:1px;
+    height:18px;     
+}
+#drop{
+    display: flex;
+}
+#drop1,#drop2{
     width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 30px;
 }
-.ui-selected{
-    background-color: rgb(70, 211, 70);
+#el2, #el3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
 }
+
