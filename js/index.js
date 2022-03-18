@@ -4,7 +4,7 @@ let id_current = 0
 
 //загружвем информацию с сайта
 function load_from_site() {
-    $.get('http://217.71.129.139:4035/students.php', function(data){
+    $.get('http://217.71.129.139:4003/students.php', function(data){
         students = JSON.parse(data)['response'] 
     });
 }
